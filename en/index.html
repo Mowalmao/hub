@@ -12,90 +12,113 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+    <style>
+        .text-outline {
+            text-shadow:
+                1px 1px 2px #000,
+                -1px -1px 2px #000,  
+                -1px 1px 2px #000,
+                1px -1px 2px #000,
+                1px 0 2px #000,
+                0 1px 2px #000,
+                -1px 0 2px #000,
+                0 -1px 2px #000;
+            color: white; /* Couleur de texte */
+        }
+        .header-text p,
+        .separator-text,
+        .logo p {
+            font-size: 35px; /* Taille de police plus grande pour le texte */
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="header-content">
             <div class="header-text">
                 <img src="../assets/img/wadi.gif" alt="Votre Photo">
-               <p>Hi there, I'm Wadi, a Morrocan Modder/Game Creator (ig) and a member of multiple collectives : The Youtube Channel "Les Débiles", The FNF Team "Funk Con's Team" as a coder, and The Translation Team "Watch Patching Team"</p>
+               <p class="text-outline">Hi there, I'm Wadi, a Morrocan Modder/Game Creator (ig) and a member of multiple collectives : The Youtube Channel "Les Débiles", The FNF Team "Funk Con's Team" as a coder, and The Translation Team "Watch Patching Team"</p>
             </div>
         </div>
     </header>
 
     <section class="separator">
-        <div class="separator-text">My socials</div>
+        <div class="separator-text text-outline">My socials</div>
         <hr>
     </section>
 
     <section class="logo-section">
         <a href="https://www.youtube.com/@LeWadi" target="_blank" class="logo">
             <i class="fa-brands fa-youtube"></i>
-            <p>Youtube</p>
+            <p class="text-outline">Youtube</p>
         </a>
 
         <a href="https://www.twitch.tv/the_wadi" target="_blank" class="logo">
             <i class="fa-brands fa-twitch"></i>
-            <p>Twitch</p>
+            <p class="text-outline">Twitch</p>
         </a>
 
         <a href="https://twitter.com/TheRealWadi" target="_blank" class="logo" id="link">
             <i class="fa-brands fa-x-twitter" id="logo"></i>
-            <p id="name">TwitterX</p>
+            <p class="text-outline" id="name">TwitterX</p>
         </a>
 
         <a href="https://github.com/LeWadi" target="_blank" class="logo">
             <i class="fa-brands fa-github"></i>
-            <p>Github</p>
+            <p class="text-outline">Github</p>
         </a>
 
         <a href="https://gamebanana.com/members/1957696" target="_blank" class="logo">
             <i class="fa-solid fa-cog"></i>
-            <p>Gamebanana</p>
+            <p class="text-outline">Gamebanana</p>
         </a>
 
         <a href="https://gamejolt.com/@TheWadi" target="_blank" class="logo">
             <i class="fa-solid fa-bolt"></i>
-            <p>GameJolt</p>
+            <p class="text-outline">GameJolt</p>
         </a>
 
         <a href="https://thewadi.itch.io" target="_blank" class="logo">
             <i class="fa-brands fa-itch-io"></i>
-            <p>Itch.io</p>
+            <p class="text-outline">Itch.io</p>
         </a>
     </section>
 
     <section class="separator">
-        <div class="separator-text">My projects</div>
+        <div class="separator-text text-outline">My projects</div>
         <hr>
     </section>
 
     <section class="logo-section">
         <a href="../games/en" target="_blank" class="logo">
             <i class="fa-solid fa-gamepad"></i>
-            <p>My video games</p>
+            <p class="text-outline">My video games</p>
         </a>
 
         <a href="../mod/en" target="_blank" class="logo">
             <i class="fa-solid fa-briefcase"></i>
-            <p>Mods I work</p>
+            <p class="text-outline">Mods I work</p>
         </a>
 
         <a href="../collectives/en" class="logo">
             <i class="fa-solid fa-laptop"></i>
-            <p>My Collectives</p>
+            <p class="text-outline">My Collectives</p>
         </a>
 
         <a href="../misc/en" target="_blank" class="logo">
             <i class="fa-solid fa-box-open"></i>
-            <p>Misc Stuff</p>
+            <p class="text-outline">Misc Stuff</p>
         </a>
     </section>
 
 </body>
 
 <footer>
-    <p class="text_footer"><a href="../" class="text_footer2">Version Française</a></p>
+    <p class="text_footer">
+        <a href="../">
+            <img src="../assets/img/fr_flag.png" alt="English Version">
+        </a>
+    </p>
 </footer>
 </html>
 
@@ -119,4 +142,4 @@
         link.href = 'https://x.com/TheRealWadi';
       }
     });
-    </script>
+</script>
